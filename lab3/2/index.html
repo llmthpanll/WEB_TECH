@@ -5,63 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1</title>
+    <title>2</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
     <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <form class="container" style="padding:30px 0;">
+    <form class="container" id="myForm" style="padding:30px 0;">
         <div class="form-group">
             <lable for="" class="col-sm-2 col-form-label-lg">หมายเลขบัตรประชาชน</lable>
-            <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="X-XXXX-XXXXX-XX-X">
-            <small id="emailHelp" class="form-text text-muted">เป็นตัวเลข จำนวน 13 หลัก</small>
+            <input type="number" class="form-control" id="personid" placeholder="กรอก หมายเลขบัตรประชาชน">
+            <small class="form-text text-muted">เป็นตัวเลข จำนวน 13 หลัก</small>
         </div>
         <div class="form-row">
             <div class="col">
                 <lable for="" class="col-sm-2 col-form-label-lg">คำนำหน้านาม</lable>
                 <select class="form-control" name="pronoun">
-                    <option value="000" selected>--คำนำหน้า--</option>
-                    <option value="001">นาย</option>
-                    <option value="002">นางสาว</option>
-                    <option value="003">นาง</option>
-                    <option value="004">เด็กชาย</option>
-                    <option value="005">เด็กหญิง</option>
+                    <option value="" selected>----คำนำหน้า----</option>
+                    <option value="นาย">นาย</option>
+                    <option value="นางสาว">นางสาว</option>
+                    <option value="นาง">นาง</option>
+                    <option value="เด็กชาย">เด็กชาย</option>
+                    <option value="เด็กหญิง">เด็กหญิง</option>
                 </select>
             </div>
             <div class="col">
                 <lable for="" class="col-sm-2 col-form-label-lg">ชื่อ</lable>
-                <input type="password" class="form-control" placeholder="ชื่อ">
-                <small id="emailHelp" class="form-text text-muted">เป็นตัวอักษร ความยาวระหว่าง 2-20 ตัวอักษร</small>
+                <input type="text" class="form-control" placeholder="ชื่อ" id="firstName">
+                <small class="form-text text-muted">เป็นตัวอักษร ความยาวระหว่าง 2-20 ตัวอักษร</small>
             </div>
             <div class="col">
                 <lable for="" class="col-sm-2 col-form-label-lg">นามสกุล</lable>
-                <input type="password" class="form-control" placeholder="นามสกุล">
-                <small id="emailHelp" class="form-text text-muted">เป็นตัวอักษร ความยาวระหว่าง 2-30 ตัวอักษร</small>
+                <input type="text" class="form-control" placeholder="นามสกุล" id="lastName">
+                <small class="form-text text-muted">เป็นตัวอักษร ความยาวระหว่าง 2-30 ตัวอักษร</small>
             </div>
         </div>
         <div class="form-group">
             <lable for="" class="col-sm-2 col-form-label-lg">ที่อยู่</lable>
-            <input type="password" class="form-control" placeholder="ที่อยู่">
-            <small id="emailHelp" class="form-text text-muted">ความยาวไม่ต่ำกว่า 5 ตัวอักษร</small>
+            <input type="text" class="form-control" placeholder="ที่อยู่" id="address">
+            <small class="form-text text-muted">ความยาวไม่ต่ำกว่า 5 ตัวอักษร</small>
         </div>
         <div class="form-group">
             <lable for="" class="col-sm-2 col-form-label-lg">ตำบล/แขวง</lable>
-            <input type="password" class="form-control" placeholder="ตำบล/แขวง">
-            <small id="emailHelp" class="form-text text-muted">เป็นตัวอักษร ความยาวไม่ต่ำกว่า 2 ตัวอักษร</small>
+            <input type="text" class="form-control" placeholder="ตำบล/แขวง" id="tumbon">
+            <small class="form-text text-muted">เป็นตัวอักษร ความยาวไม่ต่ำกว่า 2 ตัวอักษร</small>
         </div>
         <div class="form-group">
             <lable for="" class="col-sm-2 col-form-label-lg">อำเภอ/เขต</lable>
-            <input type="password" class="form-control" placeholder="อำเภอ/เขต">
-            <small id="emailHelp" class="form-text text-muted">เป็นตัวอักษร ความยาวไม่ต่ำกว่า 2 ตัวอักษร</small>
+            <input type="text" class="form-control" placeholder="อำเภอ/เขต" id="legion">
+            <small class="form-text text-muted">เป็นตัวอักษร ความยาวไม่ต่ำกว่า 2 ตัวอักษร</small>
         </div>
         <div class="form-group">
             <lable for="" class="col-sm-2 col-form-label-lg">จังหวัด</lable>
             <select class="form-control" name="province">
-                <option value="" selected>----- เลือกจังหวัด -----</option>
+                <option value="" selected>--------- เลือกจังหวัด ---------</option>
                 <option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option>
                 <option value="กระบี่">กระบี่ </option>
                 <option value="กาญจนบุรี">กาญจนบุรี </option>
@@ -143,11 +144,12 @@
         </div>
         <div class="form-group">
             <lable for="" class="col-sm-2 col-form-label-lg">รหัสไปรษณีย์</lable>
-            <input type="password" class="form-control" placeholder="XXXXX">
-            <small id="emailHelp" class="form-text text-muted">เป็นตัวเลข จำนวน 5 หลัก</small>
+            <input type="number" class="form-control" placeholder="รหัสไปรษณีย์" id="postPass">
+            <small class="form-text text-muted">เป็นตัวเลข จำนวน 5 หลัก</small>
         </div>
-        <button type="submit" id="btn" class="btn btn-primary">Submit</button>
+        <button type="submit" id="btn"class="btn btn-primary" onclick="check()">Submit</button>
     </form>
+    
 </body>
 
 </html>
