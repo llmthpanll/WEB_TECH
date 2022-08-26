@@ -1,0 +1,12 @@
+div{
+    width: 75px;
+    background-color: aqua;
+    margin: 10 0 10 0;
+    padding: 0.4rem;
+    transition: 0.25s linear;
+}
+button:hover{
+    background-color: blue;
+    transition: 0.4s;
+    color: aliceblue;
+}
