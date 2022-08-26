@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="canvas">
+        <div class="side-left">
+            <div class="container">
+                <h1>Create Your Card</h1>
+                <form role="form">
+                    <div class="form-group">
+                        <label for="txt">Full Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="tel">Phone Number:</label>
+                        <input type="text" class="form-control" id="telephone" placeholder="Enter your phone_number">
+                    </div>
+                    <div class="form-group">
+                        <label for="txt">Email :</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter your e-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="tel">Company :</label>
+                        <input type="text" class="form-control" id="company" placeholder="Enter company">
+                    </div>
+                </form>
+                <button type="button" id="btn" class="btn btn-default" onclick="submit()">Submit</button>
+
+            </div>
+        </div>
+        <div class="side-right">
+            <div class="cards">
+                <h1 id="name2"></h1>
+                <p id="telephone2"></p>
+                <p id="email2"></p>
+                <p id="company2"></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
