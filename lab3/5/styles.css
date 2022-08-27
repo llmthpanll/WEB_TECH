@@ -23,12 +23,13 @@ body {
 }
 
 .side-right {
-    background-color: blueviolet;
+    
     color: white;
     margin: auto;
-    width: 40%;
+    width: 35%;
     height: 50%;
     float: right;
+    display: flex;
 }
 
 form {
@@ -48,5 +49,22 @@ form {
 }
 
 .cards{
-    padding: 15px;
+    position: relative;
+    border: 2px #009933 solid;
+    color: #f6c771;
+    font-family: 'Secular One', sans-serif;
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(75, 171, 103); */
+    background: linear-gradient(to bottom right, #1bc81b 0%, #009933 100%);
+    border-radius: 20px;
+}
+
+#photo{
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    width: 160px;
+    height: 160px;
 }
