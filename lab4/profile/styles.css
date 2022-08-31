@@ -19,29 +19,31 @@ body {
     z-index: 999;
 }
 
-.profile,
-#prepro {
+.profile {
     width: 350px;
     height: 350px;
-    margin: auto;
-    border: 16px solid #FF4D00;
+    margin: 10px auto 10px auto;
+    border: 5px solid #FF4D00;
     border-radius: 50%;
     transition: 0.2s all;
 }
 
-.profile:hover,
-#prepro:hover {
+.profile:hover {
     transform: rotate(-10deg) scale(1.1);
 }
 
 .container {
     border: 2px solid #FF4D00;
-    display: flex;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    display: block;
+    padding-top: 76px;
+    padding-bottom: 20px;
 }
 
-.card {
+#education {
+    display: block;
+}
+
+#profile .card {
     height: 300px;
     /* max-width: 400px; */
     margin: auto;
@@ -65,4 +67,10 @@ body {
 i:hover {
     opacity: 0.6;
     transition: all 0.2s;
+}
+
+.card-img-top {
+    height: 200px;
+    width: auto;
+    margin: auto;
 }
