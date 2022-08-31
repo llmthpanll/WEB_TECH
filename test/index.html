@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="p1">This is paragraph</p>
+
+    <ol>
+      <li></li>
+    </ol>
+  </body>
+  <script>
+    let days = [
+      "Sunday",
+      "Monday",
+      "Tueday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+    ];
+
+    let pElement = document.createElement("p");
+    let text = document.createTextNode("asdasdasd");
+    pElement.appendChild(text);
+    document.body.appendChild(pElement);
+
+
+    let olist = document.createElement("ol");
+    let li = document.createElement("li");
+    let textnode = document.createTextNode("Sunday");
+    li.appendChild(textnode);
+    olist.appendChild(li);
+    document.body.appendChild(olist)
+
+  </script>
+</html>
