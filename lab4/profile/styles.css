@@ -23,7 +23,7 @@ body {
     width: 350px;
     height: 350px;
     margin: 10px auto 10px auto;
-    border: 5px solid #FF4D00;
+    border: 5px solid #000000;
     border-radius: 50%;
     transition: 0.2s all;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .container {
-    border: 2px solid #FF4D00;
+    border: 2px solid #343a40;
     display: block;
     padding-top: 76px;
     padding-bottom: 20px;
@@ -64,9 +64,14 @@ body {
     /* color: var(--c3); */
 }
 
+i {
+    color: black;
+}
+
 i:hover {
     opacity: 0.6;
     transition: all 0.2s;
+    color: black;
 }
 
 .card-img-top {
