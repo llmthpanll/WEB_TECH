@@ -1,44 +1,16 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div id="container">
-      ชื่อ: <input id="value1" type="text" /><br />
-      นามสกุล: <input id="value2" type="text" /><br />
-      ประเทศ:
-      <select name="เลือกปรเะทศ" id="country">
-        <option value="เลือกปรเะทศ">เลือกปรเะทศ</option>
-        <option value="ไทย">ไทย</option>
-        <option value="เวียดนาม">เวียดนาม</option>
-        <option value="ลาว">ลาว</option>
-        <option value="มาเลเซีย">มาเลเซีย</option>
-        <option value="สิงค์โปร์">สิงค์โปร์</option>
-        <option value="ฟิลิปปินส์">ฟิลิปปินส์</option>
-        <option value="เมียนมาร์">เมียนมาร์</option>
-        <option value="กัมพูชา">กัมพูชา</option>
-        <option value="บรูไน">บรูไน</option></select
-      ><br />
-      <button id="btn" onclick="change()">เปลี่ยนเป็นอังกฤษ</button>
-    </div>
-    <script>
-      function change() {
-        let val1 = document.getElementById("value1").value;
-        let val2 = document.getElementById("value2").value;
-        let answer = parseInt(val1) + parseInt(val2);
-        document.getElementById("result").innerHTML = "Result : " + answer;
 
-        let pElement = document.createElement("p");
-        let node = document.createTextNode(
-          val1 + " + " + val2 + " = " + answer
-        );
-        pElement.appendChild(node);
-        document.getElementById("container").appendChild(pElement);
-      }
-    </script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="container"></div>
+  <script src="javascript.js"></script>
+</body>
+
 </html>
