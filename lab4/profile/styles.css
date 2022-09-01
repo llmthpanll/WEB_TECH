@@ -15,7 +15,7 @@ body {
 #navbar {
     position: sticky;
     top: 0;
-    width: 100vw;
+    width: auto;
     z-index: 999;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .container {
-    border: 2px solid #343a40;
+    /* border: 2px solid #343a40; */
     display: block;
     padding-top: 76px;
     padding-bottom: 20px;
@@ -42,12 +42,16 @@ body {
 #education {
     display: block;
 }
+#education img{
+    width: auto;
+}
 
 #profile .card {
     height: 300px;
     /* max-width: 400px; */
     margin: auto;
     font-family: 'Prompt', sans-serif;
+    border: 0px;
 }
 
 #social {
@@ -76,6 +80,10 @@ i:hover {
 
 .card-img-top {
     height: 200px;
-    width: auto;
+    /* width: auto; */
     margin: auto;
+}
+
+.header{
+    margin-bottom: 16px;
 }
