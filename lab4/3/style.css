@@ -1,0 +1,21 @@
+body {
+    /* color: #443737; */
+    font-family: 'Prompt', sans-serif;
+    /* margin: 0; */
+}
+
+
+.container {
+    /* border: 2px solid #343a40; */
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.inp{
+    margin: 5px;
+}
+
+table{
+    width: 100%;
+}
