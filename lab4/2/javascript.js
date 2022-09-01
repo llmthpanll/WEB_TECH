@@ -37,35 +37,35 @@ let lang = {
 
 function init(choose_lang) {
     document.body.innerHTML = '';
-    let nameDiv = document.createElement('div');
-    let nameLabel = document.createElement('label');
+    const nameDiv = document.createElement('div');
+    const nameLabel = document.createElement('label');
     nameLabel.for = 'name';
     nameLabel.innerHTML = `${lang[choose_lang].name}: `;
-    let nameInput = document.createElement('input');
+    const nameInput = document.createElement('input');
     nameInput.type = 'text';
     nameInput.id = 'name';
 
     nameDiv.appendChild(nameLabel);
     nameDiv.appendChild(nameInput);
 
-    let surnameDiv = document.createElement('div');
-    let surnameLabel = document.createElement('label');
+    const surnameDiv = document.createElement('div');
+    const surnameLabel = document.createElement('label');
     surnameLabel.for = 'surname';
     surnameLabel.innerHTML = `${lang[choose_lang].surname}: `;
-    let surnameInput = document.createElement('input');
+    const surnameInput = document.createElement('input');
     surnameInput.type = 'text';
     surnameInput.id = 'surname';
 
     surnameDiv.appendChild(surnameLabel);
     surnameDiv.appendChild(surnameInput);
 
-    let countryDiv = document.createElement('div');
-    let countryLabel = document.createElement('label');
+    const countryDiv = document.createElement('div');
+    const countryLabel = document.createElement('label');
     countryLabel.for = 'country';
     countryLabel.innerHTML = `${lang[choose_lang].country[0]}: `;
-    let countrySelect = document.createElement('select');
+    const countrySelect = document.createElement('select');
     for (let index = 0; index < lang[choose_lang].country[1].length; index++) {
-        let country = lang[choose_lang].country[1][index];
+        const country = lang[choose_lang].country[1][index];
         let option = document.createElement('option');
         option.value = country.value;
         option.innerHTML = country.name;
@@ -75,7 +75,7 @@ function init(choose_lang) {
     countryDiv.appendChild(countryLabel);
     countryDiv.appendChild(countrySelect);
 
-    let btn = document.createElement('button');
+    const btn = document.createElement('button');
     btn.innerHTML = lang[choose_lang].btnlabel;
     btn.addEventListener('click', () => {
         if (choose_lang === 'th') {
