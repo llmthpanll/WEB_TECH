@@ -1,11 +1,79 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="script.js"></script> -->
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div class="container" id="maincon">
+        <div class="row justify-content-md-center">
+            <p>
+                <input type="number" id="amount"> :
+                <button type="submit" onclick="submit()" id="btn">Submit</button>
+            </p>
+        </div>
+        <div class="row" id="insert">
+            <div id="div"></div>
+        </div>
+    </div>
+    <script>
+        function submit() {
+            let num = document.getElementById("amount").value;
+            let count = 1;
+            let old_insert = document.getElementById("insert");
+            let head = document.getElementById("maincon");
+            head.removeChild(insert)
+            let new_insert = document.createElement("div");
+            new_insert.setAttribute("class", "row");
+            new_insert.setAttribute("id", "insert");
+
+
+
+            for (let i = 1; i <= num; i++) {
+                if ((i-1) % 8 == 0) {
+                    count++
+                }
+                if (count % 2 == 1) {
+                    var box = document.createElement("div");
+                    var text = document.createTextNode(i);
+                    box.appendChild(text);
+                    box.style.width = "100px";
+                    box.style.height = "100px";
+                    box.setAttribute("class", "div");
+                    if (i % 2 == 1) {
+                        box.style.backgroundColor = "white"
+                        box.style.color = "black"
+                    } else {
+                        box.style.backgroundColor = "black"
+                        box.style.color = "white"
+                    }
+                }else if (count %2 == 0){
+                    var box = document.createElement("div");
+                    var text = document.createTextNode(i);
+                    box.appendChild(text);
+                    box.style.width = "100px";
+                    box.style.height = "100px";
+                    box.setAttribute("class", "div");
+                    if (i % 2 == 1) {
+                        box.style.backgroundColor = "black"
+                        box.style.color = "white"
+                    } else {
+                        box.style.backgroundColor = "white"
+                        box.style.color = "black"
+                    }
+                }
+                new_insert.appendChild(box);
+                head.appendChild(new_insert);
+            }
+        }
+    </script>
 </body>
+
 </html>
