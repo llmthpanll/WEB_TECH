@@ -1,12 +1,12 @@
 .container{
     margin-top: 1em;
     padding-top: 1em;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     max-width: 805px;
     min-width: 810px;
 }
 #insert{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-size: 3em;
     text-align: center;
     /* justify-content: center; */

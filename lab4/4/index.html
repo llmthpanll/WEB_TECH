@@ -37,36 +37,32 @@
 
 
             for (let i = 1; i <= num; i++) {
-                if ((i-1) % 8 == 0) {
+                if ((i - 1) % 8 == 0) {
                     count++
                 }
                 if (count % 2 == 1) {
                     var box = document.createElement("div");
-                    var text = document.createTextNode(i);
-                    box.appendChild(text);
                     box.style.width = "100px";
                     box.style.height = "100px";
                     box.setAttribute("class", "div");
                     if (i % 2 == 1) {
                         box.style.backgroundColor = "white"
-                        box.style.color = "black"
+                        box.style.border = "1px solid black"
                     } else {
                         box.style.backgroundColor = "black"
-                        box.style.color = "white"
+                        box.style.border = "1px solid black"
                     }
-                }else if (count %2 == 0){
+                } else if (count % 2 == 0) {
                     var box = document.createElement("div");
-                    var text = document.createTextNode(i);
-                    box.appendChild(text);
                     box.style.width = "100px";
                     box.style.height = "100px";
                     box.setAttribute("class", "div");
                     if (i % 2 == 1) {
                         box.style.backgroundColor = "black"
-                        box.style.color = "white"
+                        box.style.border = "1px solid black"
                     } else {
                         box.style.backgroundColor = "white"
-                        box.style.color = "black"
+                        box.style.border = "1px solid black"
                     }
                 }
                 new_insert.appendChild(box);
