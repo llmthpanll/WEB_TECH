@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let requestURL = 'questionAnswerData.json';
+        let request = new XMLHttpRequest();
+        request.onreadystatechange = function () {
+            if (request.readyState == 4 && request.status == 200) {
+                ExtractData(JSON.parse(request.responseText));
+                check(JSON.parse(request.responseText))
+            }
+        };
+        request.open("GET", requestURL, true);
+        request.send();
+
+        function ExtractData(data) {
+            document.write('<p style="font-size:1.5em">Quiz 1</p>')
+            for (let i = 0; i < data.length; i++) {
+                document.write(`${i + 1}) ${data[i].question}<br>`)
+                document.write(`<input type="radio" value="a" name=${"q" + (i + 1)}>${data[i].answers.a}<br>`)
+                document.write(`<input type="radio" value="b" name=${"q" + (i + 1)}>${data[i].answers.b}<br>`)
+                document.write(`<input type="radio" value="c" name=${"q" + (i + 1)}>${data[i].answers.c}<br><br>`)
+            }
+            document.write(`<button id="checkquiz" style="font-size:1em">Submit</button>`)
+        }
+
+        document.getElementById("checkquiz").attachEvent('onclick', function () { console.log("test") });
+    </script>
+</body>
+
+</html>
