@@ -1,0 +1,809 @@
+[
+    {
+        "name": "Brazil",
+        "topLevelDomain": [
+            ".br"
+        ],
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA",
+        "callingCodes": [
+            "55"
+        ],
+        "capital": "Brasília",
+        "altSpellings": [
+            "BR",
+            "Brasil",
+            "Federative Republic of Brazil",
+            "República Federativa do Brasil"
+        ],
+        "region": "Americas",
+        "subregion": "South America",
+        "population": 206135893,
+        "latlng": [
+            -10.0,
+            -55.0
+        ],
+        "demonym": "Brazilian",
+        "area": 8515767.0,
+        "gini": 54.7,
+        "timezones": [
+            "UTC-05:00",
+            "UTC-04:00",
+            "UTC-03:00",
+            "UTC-02:00"
+        ],
+        "borders": [
+            "ARG",
+            "BOL",
+            "COL",
+            "GUF",
+            "GUY",
+            "PRY",
+            "PER",
+            "SUR",
+            "URY",
+            "VEN"
+        ],
+        "nativeName": "Brasil",
+        "numericCode": "076",
+        "currencies": [
+            {
+                "code": "BRL",
+                "name": "Brazilian real",
+                "symbol": "R$"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "pt",
+                "iso639_2": "por",
+                "name": "Portuguese",
+                "nativeName": "Português"
+            }
+        ],
+        "translations": {
+            "de": "Brasilien",
+            "es": "Brasil",
+            "fr": "Brésil",
+            "ja": "ブラジル",
+            "it": "Brasile",
+            "br": "Brasil",
+            "pt": "Brasil",
+            "nl": "Brazilië",
+            "hr": "Brazil",
+            "fa": "برزیل"
+        },
+        "flag": "http://10.0.15.20/lab5/flags/bra.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "USAN",
+                "name": "Union of South American Nations",
+                "otherAcronyms": [
+                    "UNASUR",
+                    "UNASUL",
+                    "UZAN"
+                ],
+                "otherNames": [
+                    "Unión de Naciones Suramericanas",
+                    "União de Nações Sul-Americanas",
+                    "Unie van Zuid-Amerikaanse Naties",
+                    "South American Union"
+                ]
+            }
+        ],
+        "cioc": "BRA"
+    },
+    {
+        "name": "China",
+        "topLevelDomain": [
+            ".cn"
+        ],
+        "alpha2Code": "CN",
+        "alpha3Code": "CHN",
+        "callingCodes": [
+            "86"
+        ],
+        "capital": "Beijing",
+        "altSpellings": [
+            "CN",
+            "Zhōngguó",
+            "Zhongguo",
+            "Zhonghua",
+            "People's Republic of China",
+            "中华人民共和国",
+            "Zhōnghuá Rénmín Gònghéguó"
+        ],
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "population": 1377422166,
+        "latlng": [
+            35.0,
+            105.0
+        ],
+        "demonym": "Chinese",
+        "area": 9640011.0,
+        "gini": 47.0,
+        "timezones": [
+            "UTC+08:00"
+        ],
+        "borders": [
+            "AFG",
+            "BTN",
+            "MMR",
+            "HKG",
+            "IND",
+            "KAZ",
+            "PRK",
+            "KGZ",
+            "LAO",
+            "MAC",
+            "MNG",
+            "PAK",
+            "RUS",
+            "TJK",
+            "VNM"
+        ],
+        "nativeName": "中国",
+        "numericCode": "156",
+        "currencies": [
+            {
+                "code": "CNY",
+                "name": "Chinese yuan",
+                "symbol": "¥"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "zh",
+                "iso639_2": "zho",
+                "name": "Chinese",
+                "nativeName": "中文 (Zhōngwén)"
+            }
+        ],
+        "translations": {
+            "de": "China",
+            "es": "China",
+            "fr": "Chine",
+            "ja": "中国",
+            "it": "Cina",
+            "br": "China",
+            "pt": "China",
+            "nl": "China",
+            "hr": "Kina",
+            "fa": "چین"
+        },
+        "flag": "http://10.0.15.20/lab5/flags/chn.svg",
+        "regionalBlocs": [],
+        "cioc": "CHN"
+    },
+    {
+        "name": "France",
+        "topLevelDomain": [
+            ".fr"
+        ],
+        "alpha2Code": "FR",
+        "alpha3Code": "FRA",
+        "callingCodes": [
+            "33"
+        ],
+        "capital": "Paris",
+        "altSpellings": [
+            "FR",
+            "French Republic",
+            "République française"
+        ],
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "population": 66710000,
+        "latlng": [
+            46.0,
+            2.0
+        ],
+        "demonym": "French",
+        "area": 640679.0,
+        "gini": 32.7,
+        "timezones": [
+            "UTC-10:00",
+            "UTC-09:30",
+            "UTC-09:00",
+            "UTC-08:00",
+            "UTC-04:00",
+            "UTC-03:00",
+            "UTC+01:00",
+            "UTC+03:00",
+            "UTC+04:00",
+            "UTC+05:00",
+            "UTC+11:00",
+            "UTC+12:00"
+        ],
+        "borders": [
+            "AND",
+            "BEL",
+            "DEU",
+            "ITA",
+            "LUX",
+            "MCO",
+            "ESP",
+            "CHE"
+        ],
+        "nativeName": "France",
+        "numericCode": "250",
+        "currencies": [
+            {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "fr",
+                "iso639_2": "fra",
+                "name": "French",
+                "nativeName": "français"
+            }
+        ],
+        "translations": {
+            "de": "Frankreich",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス",
+            "it": "Francia",
+            "br": "França",
+            "pt": "França",
+            "nl": "Frankrijk",
+            "hr": "Francuska",
+            "fa": "فرانسه"
+        },
+        "flag": "http://10.0.15.20/lab5/flags/fra.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "EU",
+                "name": "European Union",
+                "otherAcronyms": [],
+                "otherNames": []
+            }
+        ],
+        "cioc": "FRA"
+    },
+    {
+        "name": "Germany",
+        "topLevelDomain": [
+            ".de"
+        ],
+        "alpha2Code": "DE",
+        "alpha3Code": "DEU",
+        "callingCodes": [
+            "49"
+        ],
+        "capital": "Berlin",
+        "altSpellings": [
+            "DE",
+            "Federal Republic of Germany",
+            "Bundesrepublik Deutschland"
+        ],
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "population": 81770900,
+        "latlng": [
+            51.0,
+            9.0
+        ],
+        "demonym": "German",
+        "area": 357114.0,
+        "gini": 28.3,
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "borders": [
+            "AUT",
+            "BEL",
+            "CZE",
+            "DNK",
+            "FRA",
+            "LUX",
+            "NLD",
+            "POL",
+            "CHE"
+        ],
+        "nativeName": "Deutschland",
+        "numericCode": "276",
+        "currencies": [
+            {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "de",
+                "iso639_2": "deu",
+                "name": "German",
+                "nativeName": "Deutsch"
+            }
+        ],
+        "translations": {
+            "de": "Deutschland",
+            "es": "Alemania",
+            "fr": "Allemagne",
+            "ja": "ドイツ",
+            "it": "Germania",
+            "br": "Alemanha",
+            "pt": "Alemanha",
+            "nl": "Duitsland",
+            "hr": "Njemačka",
+            "fa": "آلمان"
+        },
+        "flag": "http://10.0.15.20/lab5/flags/deu.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "EU",
+                "name": "European Union",
+                "otherAcronyms": [],
+                "otherNames": []
+            }
+        ],
+        "cioc": "GER"
+    },
+    {
+        "name": "Greece",
+        "topLevelDomain": [
+            ".gr"
+        ],
+        "alpha2Code": "GR",
+        "alpha3Code": "GRC",
+        "callingCodes": [
+            "30"
+        ],
+        "capital": "Athens",
+        "altSpellings": [
+            "GR",
+            "Elláda",
+            "Hellenic Republic",
+            "Ελληνική Δημοκρατία"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "population": 10858018,
+        "latlng": [
+            39.0,
+            22.0
+        ],
+        "demonym": "Greek",
+        "area": 131990.0,
+        "gini": 34.3,
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "borders": [
+            "ALB",
+            "BGR",
+            "TUR",
+            "MKD"
+        ],
+        "nativeName": "Ελλάδα",
+        "numericCode": "300",
+        "currencies": [
+            {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "el",
+                "iso639_2": "ell",
+                "name": "Greek (modern)",
+                "nativeName": "ελληνικά"
+            }
+        ],
+        "translations": {
+            "de": "Griechenland",
+            "es": "Grecia",
+            "fr": "Grèce",
+            "ja": "ギリシャ",
+            "it": "Grecia",
+            "br": "Grécia",
+            "pt": "Grécia",
+            "nl": "Griekenland",
+            "hr": "Grčka",
+            "fa": "یونان"
+        },
+        "flag": "http://10.0.15.20/lab5/flags/grc.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "EU",
+                "name": "European Union",
+                "otherAcronyms": [],
+                "otherNames": []
+            }
+        ],
+        "cioc": "GRE"
+    },
+    {
+        "name": "Italy",
+        "topLevelDomain": [
+            ".it"
+        ],
+        "alpha2Code": "IT",
+        "alpha3Code": "ITA",
+        "callingCodes": [
+            "39"
+        ],
+        "capital": "Rome",
+        "altSpellings": [
+            "IT",
+            "Italian Republic",
+            "Repubblica italiana"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "population": 60665551,
+        "latlng": [
+            42.83333333,
+            12.83333333
+        ],
+        "demonym": "Italian",
+        "area": 301336.0,
+        "gini": 36.0,
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "borders": [
+            "AUT",
+            "FRA",
+            "SMR",
+            "SVN",
+            "CHE",
+            "VAT"
+        ],
+        "nativeName": "Italia",
+        "numericCode": "380",
+        "currencies": [
+            {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "it",
+                "iso639_2": "ita",
+                "name": "Italian",
+                "nativeName": "Italiano"
+            }
+        ],
+        "translations": {
+            "de": "Italien",
+            "es": "Italia",
+            "fr": "Italie",
+            "ja": "イタリア",
+            "it": "Italia",
+            "br": "Itália",
+            "pt": "Itália",
+            "nl": "Italië",
+            "hr": "Italija",
+            "fa": "ایتالیا"
+        },
+        "flag": "http://10.0.15.20/lab5/flags/ita.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "EU",
+                "name": "European Union",
+                "otherAcronyms": [],
+                "otherNames": []
+            }
+        ],
+        "cioc": "ITA"
+    },
+    {
+        "name": "Japan",
+        "topLevelDomain": [
+            ".jp"
+        ],
+        "alpha2Code": "JP",
+        "alpha3Code": "JPN",
+        "callingCodes": [
+            "81"
+        ],
+        "capital": "Tokyo",
+        "altSpellings": [
+            "JP",
+            "Nippon",
+            "Nihon"
+        ],
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "population": 126960000,
+        "latlng": [
+            36.0,
+            138.0
+        ],
+        "demonym": "Japanese",
+        "area": 377930.0,
+        "gini": 38.1,
+        "timezones": [
+            "UTC+09:00"
+        ],
+        "borders": [],
+        "nativeName": "日本",
+        "numericCode": "392",
+        "currencies": [
+            {
+                "code": "JPY",
+                "name": "Japanese yen",
+                "symbol": "¥"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "ja",
+                "iso639_2": "jpn",
+                "name": "Japanese",
+                "nativeName": "日本語 (にほんご)"
+            }
+        ],
+        "translations": {
+            "de": "Japan",
+            "es": "Japón",
+            "fr": "Japon",
+            "ja": "日本",
+            "it": "Giappone",
+            "br": "Japão",
+            "pt": "Japão",
+            "nl": "Japan",
+            "hr": "Japan",
+            "fa": "ژاپن"
+        },
+        "flag": "http://10.0.15.20/lab5/flags/jpn.svg",
+        "regionalBlocs": [],
+        "cioc": "JPN"
+    },
+    {
+        "name": "Mexico",
+        "topLevelDomain": [
+            ".mx"
+        ],
+        "alpha2Code": "MX",
+        "alpha3Code": "MEX",
+        "callingCodes": [
+            "52"
+        ],
+        "capital": "Mexico City",
+        "altSpellings": [
+            "MX",
+            "Mexicanos",
+            "United Mexican States",
+            "Estados Unidos Mexicanos"
+        ],
+        "region": "Americas",
+        "subregion": "Central America",
+        "population": 122273473,
+        "latlng": [
+            23.0,
+            -102.0
+        ],
+        "demonym": "Mexican",
+        "area": 1964375.0,
+        "gini": 47.0,
+        "timezones": [
+            "UTC-08:00",
+            "UTC-07:00",
+            "UTC-06:00"
+        ],
+        "borders": [
+            "BLZ",
+            "GTM",
+            "USA"
+        ],
+        "nativeName": "México",
+        "numericCode": "484",
+        "currencies": [
+            {
+                "code": "MXN",
+                "name": "Mexican peso",
+                "symbol": "$"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "es",
+                "iso639_2": "spa",
+                "name": "Spanish",
+                "nativeName": "Español"
+            }
+        ],
+        "translations": {
+            "de": "Mexiko",
+            "es": "México",
+            "fr": "Mexique",
+            "ja": "メキシコ",
+            "it": "Messico",
+            "br": "México",
+            "pt": "México",
+            "nl": "Mexico",
+            "hr": "Meksiko",
+            "fa": "مکزیک"
+        },
+        "flag": "http://10.0.15.20/lab5/flags/mex.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "PA",
+                "name": "Pacific Alliance",
+                "otherAcronyms": [],
+                "otherNames": [
+                    "Alianza del Pacífico"
+                ]
+            },
+            {
+                "acronym": "NAFTA",
+                "name": "North American Free Trade Agreement",
+                "otherAcronyms": [],
+                "otherNames": [
+                    "Tratado de Libre Comercio de América del Norte",
+                    "Accord de Libre-échange Nord-Américain"
+                ]
+            }
+        ],
+        "cioc": "MEX"
+    },
+    {
+        "name": "Poland",
+        "topLevelDomain": [
+            ".pl"
+        ],
+        "alpha2Code": "PL",
+        "alpha3Code": "POL",
+        "callingCodes": [
+            "48"
+        ],
+        "capital": "Warsaw",
+        "altSpellings": [
+            "PL",
+            "Republic of Poland",
+            "Rzeczpospolita Polska"
+        ],
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "population": 38437239,
+        "latlng": [
+            52.0,
+            20.0
+        ],
+        "demonym": "Polish",
+        "area": 312679.0,
+        "gini": 34.1,
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "borders": [
+            "BLR",
+            "CZE",
+            "DEU",
+            "LTU",
+            "RUS",
+            "SVK",
+            "UKR"
+        ],
+        "nativeName": "Polska",
+        "numericCode": "616",
+        "currencies": [
+            {
+                "code": "PLN",
+                "name": "Polish złoty",
+                "symbol": "zł"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "pl",
+                "iso639_2": "pol",
+                "name": "Polish",
+                "nativeName": "język polski"
+            }
+        ],
+        "translations": {
+            "de": "Polen",
+            "es": "Polonia",
+            "fr": "Pologne",
+            "ja": "ポーランド",
+            "it": "Polonia",
+            "br": "Polônia",
+            "pt": "Polónia",
+            "nl": "Polen",
+            "hr": "Poljska",
+            "fa": "لهستان"
+        },
+        "flag": "http://10.0.15.20/lab5/flags/pol.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "EU",
+                "name": "European Union",
+                "otherAcronyms": [],
+                "otherNames": []
+            }
+        ],
+        "cioc": "POL"
+    },
+    {
+        "name": "Thailand",
+        "topLevelDomain": [
+            ".th"
+        ],
+        "alpha2Code": "TH",
+        "alpha3Code": "THA",
+        "callingCodes": [
+            "66"
+        ],
+        "capital": "Bangkok",
+        "altSpellings": [
+            "TH",
+            "Prathet",
+            "Thai",
+            "Kingdom of Thailand",
+            "ราชอาณาจักรไทย",
+            "Ratcha Anachak Thai"
+        ],
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "population": 65327652,
+        "latlng": [
+            15.0,
+            100.0
+        ],
+        "demonym": "Thai",
+        "area": 513120.0,
+        "gini": 40.0,
+        "timezones": [
+            "UTC+07:00"
+        ],
+        "borders": [
+            "MMR",
+            "KHM",
+            "LAO",
+            "MYS"
+        ],
+        "nativeName": "ประเทศไทย",
+        "numericCode": "764",
+        "currencies": [
+            {
+                "code": "THB",
+                "name": "Thai baht",
+                "symbol": "฿"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "th",
+                "iso639_2": "tha",
+                "name": "Thai",
+                "nativeName": "ไทย"
+            }
+        ],
+        "translations": {
+            "de": "Thailand",
+            "es": "Tailandia",
+            "fr": "Thaïlande",
+            "ja": "タイ",
+            "it": "Tailandia",
+            "br": "Tailândia",
+            "pt": "Tailândia",
+            "nl": "Thailand",
+            "hr": "Tajland",
+            "fa": "تایلند"
+        },
+        "flag": "http://10.0.15.20/lab5/flags/tha.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "ASEAN",
+                "name": "Association of Southeast Asian Nations",
+                "otherAcronyms": [],
+                "otherNames": []
+            }
+        ],
+        "cioc": "THA"
+    }
+]
