@@ -24,8 +24,8 @@
             for (let i = 0; i < data.ID.length; i++) {
                 document.write('<br>');
                 document.write(data.ID[i] + ' ');
-                document.write(data.Firstname[i]);
-                document.write(data.Lastname[i]);
+                document.write('<b>' + data.Firstname[i] + '</b>' + ' ');
+                document.write('<b>' + data.Lastname[i] + '</b>');
                 document.write(' (' + data.Gender[i] + ') is a ');
                 document.write(data.Position[i] + ', ');
                 document.write(data.Address[i]);
