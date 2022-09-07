@@ -10,6 +10,45 @@
 <body>
     <script>
 
+        let requestURL = 'countries.json';
+        let request = new XMLHttpRequest();
+        request.onreadystatechange = function () {
+            if (request.readyState == 4 && request.status == 200) {
+                ExtractData(JSON.parse(request.responseText));
+                check(JSON.parse(request.responseText))
+            }
+        };
+        request.open("GET", requestURL, true);
+        request.send();
+
+        function ExtractData(data) {
+            document.write('<body style="background-color:#eee">')
+            for (let i = 0; i < data.length; i++) {
+                document.write('<div style="display:flex">')
+
+
+                document.write('<div style="flex:30%">')
+                document.write('Name : ' + '<b>' + data[i].name + '</b>' + '<br>')
+                document.write('Capital : ' + data[i].capital + '<br>')
+                document.write('Population : ' + data[i].population + '<br>')
+                document.write('region : ' + data[i].region + '<br>')
+                document.write('Location : ' + data[i].latlng[0] + ' ' + data[i].latlng[1] + '<br>')
+                document.write('borders : ')
+                for (let j = 0; j < data[i].borders.length; j++) {
+                    document.write(data[i].borders[j] + ' ');
+                }
+                document.write('<br>');
+                document.write('</div>')
+
+                document.write('<div style="flex:70%">')
+                document.write('<img src="' + data[i].flag + '" style="width: 150px;">')
+                document.write('</div>')
+
+
+                document.write('</div>')
+                document.write('<br>')
+            }
+        }
     </script>
 </body>
 
