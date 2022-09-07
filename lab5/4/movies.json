@@ -1,0 +1,80 @@
+{
+    "movies": {
+        "showing": [
+            {
+                "id": 1,
+                "title_th": "เกมเมอร์ เกมแม่",
+                "title_en": "Mother Gamer",
+                "releasedate" : "2020-09-10",
+                "poster" : "http://10.0.15.20/lab5/posters/mother.jpg",
+                "categoty" : ["Action"]
+            },
+            {
+                "id": 2,
+                "title_th": "มู่หลาน",
+                "title_en": "Mulan",
+                "releasedate" : "2020-09-04",
+                "poster" : "http://10.0.15.20/lab5/posters/mulan.jpg",
+                "categoty" : ["Adventure"]
+            },
+            {
+                "id": 3,
+                "title_th": "เทเน็ท",
+                "title_en": "Tenet",
+                "releasedate" : "2020-08-27",
+                "poster" : "http://10.0.15.20/lab5/posters/tenet.jpg",
+                "categoty" : ["Action"]
+            },
+            {
+                "id": 4,
+                "title_th": "กระชากนรก โคตรไอ้เข้",
+                "title_en": "Black water : Abyss",
+                "releasedate" : "2020-08-12",
+                "poster" : "http://10.0.15.20/lab5/posters/abyss.jpg",
+                "categoty" : ["Action", "Drama", "Horror"]
+            },
+            {
+                "id": 5,
+                "title_th": "Break The Silence : The Movie",
+                "title_en": "Break The Silence : The Movie",
+                "releasedate" : "2020-09-10",
+                "poster" : "http://10.0.15.20/lab5/posters/break.jpg",
+                "categoty" : ["Documentary", "Musical"]
+            },
+            {
+                "id": 5,
+                "title_th": "อย่าให้ยูจินเข้าบ้าน",
+                "title_en": "The Intruder",
+                "releasedate" : "2020-08-20",
+                "poster" : "http://10.0.15.20/lab5/posters/intruder.jpg",
+                "categoty" : ["Thriller", "Musical"]
+            }
+        ],
+        "comingsoon": [
+            {
+                "id": 1,
+                "title_th": "Love at Second Sight",
+                "title_en": "Love at Second Sight",
+                "releasedate" : "2020-09-24",
+                "poster" : "http://10.0.15.20/lab5/posters/loveat.jpg",
+                "categoty" : ["Comedy", "Drama"]
+            },
+            {
+                "id": 2,
+                "title_th": "นาทีระทึก..วันสิ้นโลก",
+                "title_en": "Greenland",
+                "releasedate" : "2020-09-24",
+                "poster" : "http://10.0.15.20/lab5/posters/greenland.jpg",
+                "categoty" : ["Action", "Thriller"]
+            },
+            {
+                "id": 3,
+                "title_th": "เทสลา คนล่าอนาคต",
+                "title_en": "Tesla",
+                "releasedate" : "2020-09-24",
+                "poster" : "http://10.0.15.20/lab5/posters/tesla.jpg",
+                "categoty" : ["Biography", "Drama"]
+            }
+        ]
+    }
+}
