@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let requestURL = "superheroes.json";
+      let request = new XMLHttpRequest();
+      request.onreadystatechange = function () {
+        if (request.readyState == 4 && request.status == 200) {
+          ExtractData(JSON.parse(request.responseText));
+        }
+      };
+      request.open("GET", requestURL, true);
+      request.send();
+
+      function ExtractData(data) {
+        document.write(data.squadName + "<br>");
+        document.write(data.homeTown + "<br>");
+        document.write(data.secretBase + "<br>");
+        let text = "";
+        for (let i = 0; i < data.members.length; i++) {
+          text += i + 1 + " ";
+          text += data.members[i].name + " " + data.members[i].age;
+          text += " " + data.members[i].secretIdentity + " ";
+          document.write(text);
+          text = "";
+          document.write("<ol>");
+          for (let power of data.members[i].powers) {
+            document.write("<li>" + power + "</li>");
+          }
+          document.write("</ol>");
+          text += "<br>";
+        }
+        document.write(text);
+      }
+    </script>
+  </body>
+</html>
