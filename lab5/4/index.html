@@ -1,39 +1,13 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>lab5/4</title>
+    <script src="script.js"></script>
 </head>
-
 <body>
-    <script>
-        let requestURL = 'movies.json';
-        let request = new XMLHttpRequest();
-        request.onreadystatechange = function () {
-            if (request.readyState == 4 && request.status == 200) {
-                ExtractData(JSON.parse(request.responseText));
-            }
-        };
-        request.open("GET", requestURL, true);
-        request.send();
-
-
-        function ExtractData(data) {
-            document.write(`<body><div style="display:flex;justify-content:center;align-items:center;margin-top:1%">`)
-            for (let i = 0; i < data.movies.showing.length; i++) {
-                // code
-                //document.write(`<div style="position:relative; margin: 64px 8px 0px 8px; text-align:center;border:0.5px solid black; width:260px; height:385px">`)
-                document.write(`<div style="margin:40px 10px;border: 1px solid #ccc; text-align:center; padding: 0px 10px 15px 10px;border-radius: 5px;position:relative;width:260px; height:385px;"">`)
-                document.write(`<img src="${data.movies.showing[i].poster}" style="position:relative; top:-10%; width:208px; height:308px"></img>`)
-                document.write(`<p style="position:relative; top:-10%; margin: 11px 0px 11px 0px;"> ${data.movies.showing[i].title_th} </p>`)
-                document.write(`<p style="position:relative; top:-10%; margin: 11px 0px 11px 0px;">Release date : ${data.movies.showing[i].releasedate}</p>`)
-                document.write(`<button type="button" style="position:relative; top:-10%; padding:5px 34px; background-color:#007bff; color:white; border-radius:5px; border: 0px; font-size:14px">เช็ครอบภาพยนต์</button>`)
-                document.write(`</div>`)
-            }
-        }
-    </script>
+    
 </body>
-
 </html>
