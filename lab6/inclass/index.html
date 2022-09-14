@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font-size: 30px;
+        }
+
+        div {
+            height: 100px;
+        }
+
+        .c1 {
+            background-color: #1abc9c;
+        }
+
+        .c2 {
+            background-color: #2ecc71;
+        }
+
+        .c3 {
+            background-color: #3498db;
+        }
+
+        .c4 {
+            background-color: #e08692;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row text-center">
+            <!---- 2 columns ----->
+            <p>2 columns: 50% width on all screens, col-md-6 for screens less than
+                <strong>768px</strong> wide)
+            </p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 c2">1 of 2</div>
+                    <div class="col-md-6 c4">2 of 2</div>
+                </div>
+            </div>
+            <br>
+            <!---- 4 columns ----->
+            <p>4 columns: 25% width on all screens, col-sm-3 for screens less than
+                <strong>576px</strong> wide)
+            </p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-3 c1">1 of 4</div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 c2">2 of 4</div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 c3">3 of 4</div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 c4">4 of 4</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
