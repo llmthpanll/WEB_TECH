@@ -5,88 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <style>
-        body {
-            font-size: 30px;
+        * {
+            box-sizing: border-box;
         }
 
-        div {
-            height: 100px;
+        .left {
+            background-color: #2196F3;
+            padding: 20px;
+            float: left;
+            width: 20%;
         }
 
-        .c1 {
-            background-color: #1abc9c;
+        .main {
+            background-color: #f1f1f1;
+            padding: 20px;
+            float: left;
+            width: 60%;
         }
 
-        .c2 {
-            background-color: #2ecc71;
+        .right {
+            background-color: #4CAF50;
+            padding: 20px;
+            float: left;
+            width: 20%;
         }
 
-        .c3 {
-            background-color: #3498db;
-        }
+        @media screen and (max-width:600px) {
 
-        .c4 {
-            background-color: #e08692;
+            .left,
+            .main,
+            .right {
+                width: 100%;
+            }
         }
     </style>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row text-center">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6 c2">1 of 2</div>
-                    <div class="col-md-6 c4">2 of 2</div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 c1">
-                        <h1>HTML</h1>
-                        <p>HTML is the standard markup
-                            language for describing the
-                            structure of the web pages. Our
-                            HTML tutorials will help you to
-                            understand the basics of latest
-                        </p>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 c2">
-                        <h1>CSS</h1>
-                        <p>CSS is used for describing the
-                            presentation of web pages. CSS can
-                            save a lot of time and effort. Our
-                            CSS tutorials will help you to learn
-                            the essentials of latest CSS3, so that
-                        </p>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 c3">
-                        <h1>JavaScript</h1>
-                        <p>JavaScript is the most popular and
-                            widely used client-side scripting
-                            language. Our JavaScript tutorials
-                            will provide in-depth knowledge of
-                            the JavaScript including ES6
-                        </p>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 c4">
-                        <h1>Bootstrap</h1>
-                        <p>Bootstrap is a powerful front-end
-                            framework for faster and easier web
-                            development. Our Bootstrap
-                            tutorials will help you to leamn all
-                            the features of latest Bootstrap 4
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+    <h2>Media Queries</h2>
+    <p>Resize the browser window.</p>
+    <p>Make sure you reach the breakpoint at 600px when resizing this frame.</p>
+    <div class="left">
+        <p>Left Menu</p>
+    </div>
+    <div class="main">
+        <p>Main Content</p>
+    </div>
+    <div class="right">
+        <p>Right Content</p>
     </div>
 </body>
 
