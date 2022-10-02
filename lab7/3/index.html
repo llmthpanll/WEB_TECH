@@ -1,0 +1,60 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+        }
+
+        #container {
+            max-width: 300px;
+        }
+
+        .text {
+            width: 250px;
+        }
+
+        .age {
+            width: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <form id="calform" action="show.php" method="post">
+            <h1>Member Registration</h1>
+            <p>
+                <label for="inpvalue">Name: </label><br>
+                <input type="text" id="fname" class="text" name="fname" value="" />
+            </p>
+            <p>
+                <label for="inpvalue">Address: </label><br>
+                <textarea cols="25" rows="5" id="Address" name="Address"></textarea><br>
+            </p>
+            <p>
+                <label for="inpvalue">Age: </label><br>
+                <input type="text" id="inpvalue" class="age" name="inpvalue" value="" /><br>
+            </p>
+            <p>
+                <label for="inpvalue">Profession: </label><br>
+                <input type="text" id="inpvalue" class="text" name="inpvalue" value="" /><br>
+            </p>
+            <p>
+                <label for="inpvalue">Residential status: </label><br>
+                <input type="radio" id="inpvalue" name="inpvalue" value="Resident" />
+                <label for="inpvalue">Resident </label>
+                <input type="radio" id="inpvalue" name="inpvalue" value="Non-Resident" />
+                <label for="inpvalue">Non-Resident </label><br>
+            </p>
+
+            <input type="submit" id="submit" value="submit">
+        </form>
+    </div>
+</body>
+
+</html>
