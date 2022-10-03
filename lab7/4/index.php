@@ -27,7 +27,7 @@
     <div>
         <?php
 
-        for ($i = 0; $i < 50; $i++) {
+        for ($i = 0; $i < 48; $i++) {
             echo "<img src='https://picsum.photos/200/200?random=$i'>";
         }
 
