@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #map {
+            height: 400px;
+            width: 90%;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1c-CZbR3xJgLYkAWPi0ys-luInvREbyA&ehbc=2E312F"
+            width="640" height="480"></iframe> -->
+
+
+    <!-- <form> -->
+    <div>
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination">
+        <button id="desti" onclick="gotodes()">ไปยังจุดหมาย</button>
+    </div>
+    <!-- </form> -->
+    <!-- <form> -->
+    <div>
+        <label for="latitude">Latitude:</label>
+        <input type="number" id="latitude">
+        <label for="longitude">longitude:</label>
+        <input type="number" id="longitude">
+        <button id="location" onclick="gotolocation()">ไปยังจุดหมาย</button>
+    </div>
+    <!-- </form> -->
+
+    <iframe id="map" width="100%" height="500" src="https://maps.google.com/maps?q=&t=&z=15&ie=UTF8&iwloc=&output=embed"
+        frameborder="0" allowfullscreen>
+    </iframe>
+
+    <script>
+        function gotodes() {
+            var des = document.getElementById("destination").value;
+            document.getElementById('map').src = 'https://maps.google.com/maps?q=' + des +
+                '&t=&z=15&ie=UTF8&iwloc=&output=embed';
+            console.log(des);
+
+        }
+        function gotolocation() {
+            var lat = document.getElementById("latitude").value
+            var lng = document.getElementById("longitude").value
+            document.getElementById('map').src = 'https://maps.google.com/maps?q=' + lat + ', ' + lng +
+                '&t=&z=15&ie=UTF8&iwloc=&output=embed';
+        }
+    </script>
+</body>
+
+</html>

@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
         }
+
         div {
             max-width: 65%;
             margin: 100px auto;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
         }
-        img{
+
+        img {
             margin: 20px;
             border-radius: 10%;
         }

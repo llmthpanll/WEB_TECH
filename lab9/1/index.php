@@ -66,6 +66,7 @@
     }
     $db->close();
     //first check var function name
+    
     if (isset($_POST['functionname'])) {
         //check value of functionname
         if ($_POST['functionname'] == "func") {
