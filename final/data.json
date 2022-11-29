@@ -1,0 +1,179 @@
+[
+    {
+        "name": "Brazil",
+        "topLevelDomain": [
+            ".br"
+        ],
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA",
+        "callingCodes": [
+            "55"
+        ],
+        "capital": "Brasília",
+        "altSpellings": [
+            "BR",
+            "Brasil",
+            "Federative Republic of Brazil",
+            "República Federativa do Brasil"
+        ],
+        "region": "Americas",
+        "subregion": "South America",
+        "population": 206135893,
+        "latlng": [
+            -10.0,
+            -55.0
+        ],
+        "demonym": "Brazilian",
+        "area": 8515767.0,
+        "gini": 54.7,
+        "timezones": [
+            "UTC-05:00",
+            "UTC-04:00",
+            "UTC-03:00",
+            "UTC-02:00"
+        ],
+        "borders": [
+            "ARG",
+            "BOL",
+            "COL",
+            "GUF",
+            "GUY",
+            "PRY",
+            "PER",
+            "SUR",
+            "URY",
+            "VEN"
+        ],
+        "nativeName": "Brasil",
+        "numericCode": "076",
+        "currencies": [
+            {
+                "code": "BRL",
+                "name": "Brazilian real",
+                "symbol": "R$"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "pt",
+                "iso639_2": "por",
+                "name": "Portuguese",
+                "nativeName": "Português"
+            }
+        ],
+        "translations": {
+            "de": "Brasilien",
+            "es": "Brasil",
+            "fr": "Brésil",
+            "ja": "ブラジル",
+            "it": "Brasile",
+            "br": "Brasil",
+            "pt": "Brasil",
+            "nl": "Brazilië",
+            "hr": "Brazil",
+            "fa": "برزیل"
+        },
+        "flag": "http://10.0.15.20/lab5/flags/bra.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "USAN",
+                "name": "Union of South American Nations",
+                "otherAcronyms": [
+                    "UNASUR",
+                    "UNASUL",
+                    "UZAN"
+                ],
+                "otherNames": [
+                    "Unión de Naciones Suramericanas",
+                    "União de Nações Sul-Americanas",
+                    "Unie van Zuid-Amerikaanse Naties",
+                    "South American Union"
+                ]
+            }
+        ],
+        "cioc": "BRA"
+    },
+    {
+        "name": "China",
+        "topLevelDomain": [
+            ".cn"
+        ],
+        "alpha2Code": "CN",
+        "alpha3Code": "CHN",
+        "callingCodes": [
+            "86"
+        ],
+        "capital": "Beijing",
+        "altSpellings": [
+            "CN",
+            "Zhōngguó",
+            "Zhongguo",
+            "Zhonghua",
+            "People's Republic of China",
+            "中华人民共和国",
+            "Zhōnghuá Rénmín Gònghéguó"
+        ],
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "population": 1377422166,
+        "latlng": [
+            35.0,
+            105.0
+        ],
+        "demonym": "Chinese",
+        "area": 9640011.0,
+        "gini": 47.0,
+        "timezones": [
+            "UTC+08:00"
+        ],
+        "borders": [
+            "AFG",
+            "BTN",
+            "MMR",
+            "HKG",
+            "IND",
+            "KAZ",
+            "PRK",
+            "KGZ",
+            "LAO",
+            "MAC",
+            "MNG",
+            "PAK",
+            "RUS",
+            "TJK",
+            "VNM"
+        ],
+        "nativeName": "中国",
+        "numericCode": "156",
+        "currencies": [
+            {
+                "code": "CNY",
+                "name": "Chinese yuan",
+                "symbol": "¥"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "zh",
+                "iso639_2": "zho",
+                "name": "Chinese",
+                "nativeName": "中文 (Zhōngwén)"
+            }
+        ],
+        "translations": {
+            "de": "China",
+            "es": "China",
+            "fr": "Chine",
+            "ja": "中国",
+            "it": "Cina",
+            "br": "China",
+            "pt": "China",
+            "nl": "China",
+            "hr": "Kina",
+            "fa": "چین"
+        },
+        "flag": "http://10.0.15.20/lab5/flags/chn.svg",
+        "regionalBlocs": [],
+        "cioc": "CHN"
+    }
+]
