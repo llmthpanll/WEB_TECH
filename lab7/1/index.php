@@ -46,6 +46,7 @@ if (isset($_POST['inpvalue'])) {
         echo "<td>" . $i * $va . "</td>";
         // echo "$va X $i = ". $i * $va ."<hr>";
         echo "";
+        
         // }
         echo "</tr>";
     }
